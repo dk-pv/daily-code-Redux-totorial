@@ -1,8 +1,8 @@
-function Header() {
+function Header({count ,  color}) {
     return (
       <div className="header">
-        <h1>REDUX Project</h1>
-        <h3> </h3>
+        <h1 style={{color}}>REDUX Project</h1>
+        <h3>  counter : {count} </h3>
       </div>
     );
   }
