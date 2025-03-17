@@ -6,7 +6,6 @@ function Main({count , setCount , color ,setColor}) {
       <Counter count = {count} setCount = {setCount}/>
       <Aside color={color}  setColor={setColor} />
     </div>
-  );
+  )
 }
-
-export default Main;
+export default Main
