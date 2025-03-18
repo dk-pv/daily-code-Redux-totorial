@@ -1,21 +1,12 @@
+function Counter() {
+  return (
+    <div className="counter">
+      <h2>Counter</h2>
+      <h3>The count is - 0</h3>
+      <button>Increase</button>
+      <button>Decrease</button>
+    </div>
+  );
+}
 
-function Counter({count , setCount}) {
-
-    const increment = () =>{
-        setCount(count + 1)
-    }
-
-    const decrement = () =>{
-        setCount(count - 1)
-    }
-    return (
-      <div className="counter">
-        <h2>Counter</h2>
-        <h3>The count is {count}</h3>
-        <button onClick={increment}>Increase</button>
-        <button onClick={decrement}>Decrease</button>
-      </div>
-    );
-  }
-  
-  export default Counter;
+export default Counter;
