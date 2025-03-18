@@ -1,7 +1,7 @@
-function Footer({color}) {
+function Footer() {
     return (
       <div className="footer">
-        <p  style={{color}}>My Redux project footer</p>
+        <p  >My Redux project footer</p>
       </div>
     );
   }
