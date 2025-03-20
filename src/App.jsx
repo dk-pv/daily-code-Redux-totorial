@@ -3,6 +3,10 @@
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
 
+import UsersList from "./user/UserList";
+
+// import BgColor from "./bgColor/BgColor";
+
 // import Simple from "./simple/Simple";
 
 
@@ -12,7 +16,7 @@
 
 // import Main from "./components/Main";
 
-import Text from './textcolor/Text'
+// import Text from './textcolor/Text'
 function App() {
  
   return (
@@ -24,8 +28,11 @@ function App() {
       {/* <Name/> */}
       {/* <Simple/> */}
       
-      <Text/>
+      {/* <Text/> */}
 
+      {/* <BgColor/> */}
+
+      <UsersList/>
 
     </div>
   );
