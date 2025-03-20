@@ -3,6 +3,8 @@
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
 
+import Simple from "./simple/Simple";
+
 // import Name from "./changeName/Name";
 
 // import Count from "./Counter/Count";
@@ -17,6 +19,9 @@ function App() {
       <Footer /> */}
       {/* <Count/> */}
       {/* <Name/> */}
+      <Simple/>
+
+
     </div>
   );
 }
