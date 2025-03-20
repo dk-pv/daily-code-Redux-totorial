@@ -3,7 +3,7 @@
 // import Footer from "./components/Footer";
 // import Header from "./components/Header";
 
-import Name from "./changeName/Name";
+// import Name from "./changeName/Name";
 
 // import Count from "./Counter/Count";
 
@@ -16,7 +16,7 @@ function App() {
       <Main />
       <Footer /> */}
       {/* <Count/> */}
-      <Name/>
+      {/* <Name/> */}
     </div>
   );
 }
